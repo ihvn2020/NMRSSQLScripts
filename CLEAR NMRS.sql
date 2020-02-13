@@ -1,0 +1,17 @@
+set foreign_key_checks=0;
+delete from obs;
+delete from users where user_id not in(1,2,6,7);
+delete from encounter;
+delete from encounter_provider;
+delete from visit;
+delete from patient_identifier;
+delete from patient_program;
+delete from relationship;
+delete from person_name where person_id not in (1,2,6,7);
+delete from person_address;
+delete from user_role where user_id not in(1,2,6,7);
+delete from provider where person_id not in(1,2,6,7);
+delete from patient;
+delete from person_attribute;
+delete from person where person_id not in(1,2,6,7);
+set foreign_key_checks=1;
