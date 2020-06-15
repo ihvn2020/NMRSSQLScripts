@@ -20,7 +20,7 @@ filled for them.
 This is a line listing of all patients who have an appointment within a period :startDate and :endDate but did not have 
 a corresponding encounter within that period :startDate and :endDate. A patient missing appointment is an early warning that
 the patient could be a potential LTFU (Lost to Follow Up).
-# RADET4
+# RADET9
 This is line listing generation of key patient information, especially those required for generating key aggregate program level 
 indicators. RADET means Retention in Care Audit Determination Tool and this is the version 4 of it.
 # SCHEDULED APPOINTMENT
