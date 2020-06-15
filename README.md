@@ -38,3 +38,5 @@ This is a line listing of patients who are due for viral load test. The SQL scri
 # VIRAL LOADS
 This is a line listing of viral loads done within a given time period :startDate and :endDate specified by the user.
 The selection criteria is based on viral loads with SampleCollectionDate falling within a period.
+# ADD PAST VISIT SCRIPT
+This script automatically assigns visit_id to an encounter that does not have visit_id
